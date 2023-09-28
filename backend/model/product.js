@@ -57,11 +57,9 @@ const productSchema = new mongoose.Schema({
   },
   shopId: {
     type: String,
-    required: true,
   },
   shop: {
     type: Object,
-    required: true,
   },
   sold_out: {
     type: Number,

@@ -12,7 +12,7 @@ const fs = require("fs");
 // create product
 router.post(
   "/create-product",
-  upload.array("images"),
+
   catchAsyncErrors(async (req, res, next) => {
     try {
       const shopId = req.body.shopId;
