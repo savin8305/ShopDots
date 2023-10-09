@@ -171,7 +171,6 @@ router.put(
     }
   })
 );
-
 // all products --- for admin
 router.get(
   "/admin-all-products",

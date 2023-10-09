@@ -49,11 +49,12 @@ const Hero = () => {
           Your Gateway to Secure Opportunities.
         </h1>
         <p className="text-[16px] font-[Poppins] font-[400] text-[#000000ba] mb-10">
-          "Welcome to the Future of Work! Our platform is your passport to
-          success, providing workers with secure opportunities and connecting
-          contractors with top talent. Your safety is our priority, ensuring you
-          work with confidence. Join us today and revolutionize your career
-          journey!"
+   "Welcome to the Future of Shopping with Shopdots! Our platform is
+            your gateway to retail success, offering shoppers secure access to a
+            world of products and connecting merchants with discerning
+            customers. Your satisfaction is our priority, ensuring you shop with
+            confidence. Join us today and revolutionize your shopping
+            experience!"
         </p>
         <div className="flex justify-center items-center">
           {/* <Link to="/products"> */}
@@ -79,12 +80,12 @@ const Hero = () => {
         >
           {"<"}
         </button>
-        <button
+        <buttonz
           onClick={goToNextImage}
           className="absolute top-1/2 right-0 transform -translate-y-1/2 bg-[rgba(0,0,0,0.3)] text-white p-2 rounded-r-md"
         >
           {">"}
-        </button>
+        </buttonz>
       </div>
     </div>
   );
