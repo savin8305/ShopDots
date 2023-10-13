@@ -48,10 +48,6 @@ const userSchema = new mongoose.Schema({
   },
   avatar:{
     type: String,
-<<<<<<< HEAD
-=======
-    required: true,
->>>>>>> 8970029 (initial commit to this project)
  },
  createdAt:{
   type: Date,
