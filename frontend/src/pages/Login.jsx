@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React, { useState } from "react";
 import { AiOutlineEye, AiOutlineEyeInvisible } from "react-icons/ai";
 import { Link, useNavigate } from "react-router-dom";
@@ -149,3 +150,28 @@ const Login = () => {
 };
 
 export default Login;
+=======
+import React, { useEffect } from 'react'
+import { useSelector } from 'react-redux';
+import { useNavigate } from 'react-router-dom';
+import Login from "../components/Login/Login.jsx";
+
+const LoginPage = () => {
+  const navigate = useNavigate();
+  const { isAuthenticated } = useSelector((state) => state.user);
+
+  useEffect(() => {
+    if(isAuthenticated === true){
+      navigate("/");
+    }
+  }, [])
+  
+  return (
+    <div>
+        <Login />
+    </div>
+  )
+}
+
+export default LoginPage;
+>>>>>>> 8970029 (initial commit to this project)

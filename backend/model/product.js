@@ -57,9 +57,17 @@ const productSchema = new mongoose.Schema({
   },
   shopId: {
     type: String,
+<<<<<<< HEAD
   },
   shop: {
     type: Object,
+=======
+    required: true,
+  },
+  shop: {
+    type: Object,
+    required: true,
+>>>>>>> 8970029 (initial commit to this project)
   },
   sold_out: {
     type: Number,
